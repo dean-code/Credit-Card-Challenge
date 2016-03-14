@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Clearant.Challege
+﻿namespace Clearant.Challege
 {
     public class CreditCard : IInterestCalculable
     {
         private double balance = 100;
+
         public double Balance
         {
             get
@@ -32,7 +27,7 @@ namespace Clearant.Challege
 
         public double CalculateSimpleInterest()
         {
-            return InterestRate * Balance;  //
+            return InterestRate * Balance;
         }
     }
 }
